@@ -1,14 +1,49 @@
-let slideIndex = 0;
-showSlides();
+$(document).ready(function()
+{
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
-}
+   
+        if($('.bbb_slider').length)
+        {
+            var trendsSlider = $('.bbb_slider');
+            trendsSlider.owlCarousel(
+            {
+                loop:false,
+                margin:30,
+                nav:false,
+                dots:false,
+                autoplayHoverPause:true,
+                autoplay:false,
+                responsive:
+                {
+                    0:{items:1},
+                    575:{items:2},
+                    991:{items:3}
+                }
+            });
+
+            trendsSlider.on('click', '.bbb_fav', function (ev)
+            {
+                $(ev.target).toggleClass('active');
+            });
+
+            if($('.bbb_prev').length)
+            {
+                var prev = $('.bbb_prev');
+                prev.on('click', function()
+                {
+                    trendsSlider.trigger('prev.owl.carousel');
+                });
+            }
+
+            if($('.bbb_next').length)
+            {
+                var next = $('.bbb_next');
+                next.on('click', function()
+                {
+                    trendsSlider.trigger('next.owl.carousel');
+                });
+            }
+        }
+    
+
+    });
