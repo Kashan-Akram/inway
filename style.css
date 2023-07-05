@@ -94,11 +94,11 @@ body {
 }
 
 .slider {
-  width: 900px;
+  width: 1800px;
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
-  margin-left: 45%;
+  margin: auto;
 }
 
 .slides {
@@ -112,12 +112,15 @@ body {
 }
 
 .slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 20%;
   transition: 2s;
 }
 
 .slide img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
