@@ -56,7 +56,9 @@ body {
   justify-content: space-between;
   padding: 20px 80px;
   background: #40d3dc;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #navbar {
@@ -93,113 +95,107 @@ body {
   left: 20px;
 }
 
-.slider {
-  width: 1800px;
-  height: 500px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: auto;
-}
-
-.slides {
-  width: 500%;
-  height: 500px;
+#hero {
+  background-image: url(images/home_page_slideshow/img4.jpeg);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0%;
+  padding: 0 80px;
   display: flex;
-}
-
-.slides input {
-  display: none;
-}
-
-.slide {
-  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+  color: white;
+}
+#hero h2 {
+  padding-bottom: 15px;
+  color: white;
+}
+
+#feature {
+  display: flex;
   align-items: center;
-  width: 20%;
-  transition: 2s;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.slide img {
-  width: 50%;
-  height: auto;
+#feature .fe-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
 }
 
-/*css for manual slide navigation*/
-
-.navigation-manual {
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
+#feature .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
 
-.manual-btn {
-  border: 2px solid #40d3dc;
-  padding: 5px;
-  border-radius: 10px;
+#feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #40d3dc;
+  background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+  background-color: #cdebbc;
+}
+#feature .fe-box:nth-child(3) h6 {
+  background-color: #d1e8f2;
+}
+#feature .fe-box:nth-child(4) h6 {
+  background-color: #cdd4f8;
+}
+#feature .fe-box:nth-child(5) h6 {
+  background-color: #f6dbf6;
+}
+#feature .fe-box:nth-child(6) h6 {
+  background-color: #fff2e5;
+}
+
+#product1 {
+  text-align: center;
+}
+
+#product1 .pro {
+  width: 25%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
   cursor: pointer;
-  transition: 1s;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0px;
+  transition: 0.2s ease;
 }
 
-.manual-btn:not(:last-child) {
-  margin-right: 40px;
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-.manual-btn:hover {
-  background: #40d3dc;
+#product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
 }
 
-#radio1:checked ~ .first {
-  margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-  margin-left: -20%;
-}
-
-#radio3:checked ~ .first {
-  margin-left: -40%;
-}
-
-#radio4:checked ~ .first {
-  margin-left: -60%;
-}
-
-/*css for automatic navigation*/
-
-.navigation-auto {
-  position: absolute;
-  display: flex;
-  width: 800px;
-  justify-content: center;
-  margin-top: 460px;
-}
-
-.navigation-auto div {
-  border: 2px solid #40d3dc;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.navigation-auto div:not(:last-child) {
-  margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-  background: #40d3dc;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-  background: #40d3dc;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-  background: #40d3dc;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-  background: #40d3dc;
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: #40d3dc;
+  font-size: 26px;
 }
 
