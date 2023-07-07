@@ -44,9 +44,22 @@ button.normal {
   padding: 15px 30px;
   color: black;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
   border: 1px solid black;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: white;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid white;
   outline: none;
   transition: 0.2s;
 }
@@ -144,13 +157,13 @@ body {
   font-weight: bold;
   border: 1px solid;
   cursor: pointer;
-}
+} */
 
 #hero button:hover {
-  background-color: #40d3dc;
+  background-color: ##2fa09881;
   color: white;
-  border: 1px solid black;
-} */
+  border: 1px solid #2fa09881;
+}
 
 #feature {
   display: flex;
@@ -250,12 +263,12 @@ body {
   border: 1px solid;
   cursor: pointer;
 }
-
+ */
 #product1 .pro button:hover {
   background-color: #40d3dc;
   color: white;
   border: 1px solid black;
-} */
+}
 
 #banner {
   display: flex;
@@ -280,12 +293,13 @@ body {
   font-weight: bold;
   border: 1px solid white;
   cursor: pointer;
-} 
+}  */
 
 #banner button:hover {
-  background-color: #2fa098ac;
+  background-color: #2fa09881;
   color: white;
-} */
+  border: 1px solid #2fa09881;
+}
 
 #banner h4 {
   width: 50%;
@@ -299,4 +313,56 @@ body {
   width: 50%;
   color: black;
   font-size: 16px;
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("images/img1.png");
+  min-width: 850px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url("images/img4.jpg");
+}
+
+#sm-banner h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+  background: #2fa09881;
+  border: 1px solid #2fa09881;
+}
+
+#sm-banner .banner-box2:hover button {
+  background: #6b2fa081;
+  border: 1px solid #6b2fa081;
 }
