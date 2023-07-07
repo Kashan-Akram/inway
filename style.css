@@ -96,7 +96,7 @@ body {
 }
 
 #hero {
-  background-image: url(images/home_page_slideshow/img4.jpeg);
+  background-image: url(images/home_page_background/f1.jpeg);
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -238,4 +238,35 @@ body {
   background-color: #40d3dc;
   color: white;
   border: 1px solid black;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #40d3dc;
+  margin: auto;
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner button {
+  width: 225px;
+  height: 24px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+#banner button:hover {
+  background-color: #40d3dc;
+  color: red;
+  border: 1px solid red;
 }
