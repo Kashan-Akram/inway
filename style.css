@@ -38,6 +38,24 @@ p {
   margin: 15px 0 20px 0;
 }
 
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.normal:hover {
+  background-color: #2fa09881;
+  color: white;
+}
+
 .section-p1 {
   padding: 40px 80px;
 }
@@ -117,7 +135,7 @@ body {
   color: white;
 }
 
-#hero button {
+/* #hero button {
   width: 225px;
   height: 24px;
   border-radius: 15px;
@@ -132,7 +150,7 @@ body {
   background-color: #40d3dc;
   color: white;
   border: 1px solid black;
-}
+} */
 
 #feature {
   display: flex;
@@ -202,7 +220,6 @@ body {
   padding: 10px 12px;
   border: 1px solid #cce7d0;
   border-radius: 25px;
-  cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
   margin: 15px 0px;
   transition: 0.2s ease;
@@ -223,7 +240,7 @@ body {
   font-size: 26px;
 }
 
-#product1 .pro button {
+/* #product1 .pro button {
   width: 100px;
   height: 24px;
   border-radius: 15px;
@@ -238,7 +255,7 @@ body {
   background-color: #40d3dc;
   color: white;
   border: 1px solid black;
-}
+} */
 
 #banner {
   display: flex;
@@ -249,12 +266,12 @@ body {
   background-color: #40d3dc;
   margin: auto;
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   background-size: cover;
   background-position: center;
 }
 
-#banner button {
+/* #banner button {
   width: 225px;
   height: 24px;
   border-radius: 15px;
@@ -263,10 +280,23 @@ body {
   font-weight: bold;
   border: 1px solid white;
   cursor: pointer;
-}
+} 
 
 #banner button:hover {
-  background-color: #40d3dc;
-  color: red;
-  border: 1px solid red;
+  background-color: #2fa098ac;
+  color: white;
+} */
+
+#banner h4 {
+  width: 50%;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#banner p {
+  width: 50%;
+  color: black;
+  font-size: 16px;
 }
