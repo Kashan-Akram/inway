@@ -128,6 +128,15 @@ body {
   left: 20px;
 }
 
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+#close {
+  display: none;
+}
+
 #hero {
   background-image: url(images/home_page_background/f1.jpeg);
   height: 90vh;
@@ -440,8 +449,36 @@ footer .copyright {
     background-color: #40d3dc;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0;
+    transition: 0.3s;
   }
+
+  #navbar.active {
+    right: 0px;
+  }
+
   #navbar li {
     margin-bottom: 30px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: black;
+    padding: 5px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  #close {
+    padding: 5px;
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: black;
+    font-size: 24px;
   }
 }
