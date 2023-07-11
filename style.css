@@ -368,3 +368,60 @@ body {
   background: #6b2fa081;
   border: 1px solid #6b2fa081;
 }
+
+footer {
+  background-color: #40d3dc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  color: black;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  color: black;
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  color: black;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: red;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
