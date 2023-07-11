@@ -436,6 +436,10 @@ footer .copyright {
 }
 
 @media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
   #navbar {
     display: flex;
     flex-direction: column;
@@ -445,7 +449,7 @@ footer .copyright {
     top: 0;
     right: -300px;
     height: 100vh;
-    width: 300px;
+    width: 200px;
     background-color: #40d3dc;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0;
@@ -480,5 +484,84 @@ footer .copyright {
     left: 30px;
     color: black;
     font-size: 24px;
+  }
+
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  #feature {
+    justify-content: center;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+
+  #product1 .pro-container {
+    justify-content: center;
+  }
+
+  #product1 .pro {
+    margin: 15px;
+  }
+
+  #banner {
+    height: 25vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px;
+  }
+
+  #header {
+    padding: 10px 30px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font: 32px;
+  }
+
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+  }
+
+  #feature {
+    justify-content: space-between;
+  }
+
+  #feature .fe-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+
+  #product1 .pro {
+    width: 100%;
+  }
+
+  #banner {
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box {
+    height: 40vh;
+  }
+
+  footer .copyright {
+    text-align: center;
   }
 }
