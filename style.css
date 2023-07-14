@@ -615,4 +615,17 @@ footer .copyright {
   footer .copyright {
     text-align: center;
   }
+
+  #start-para h2 {
+    font-size: 35px;
+  }
+
+  #about-head {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-head h2 {
+    font-size: 35px;
+  }
 }
