@@ -628,4 +628,8 @@ footer .copyright {
   #about-head h2 {
     font-size: 35px;
   }
+
+  #about-head div {
+    padding-left: 0px;
+  }
 }
