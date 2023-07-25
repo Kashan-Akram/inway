@@ -104,7 +104,7 @@ body {
   position: relative;
 }
 
-#navbar li a {
+#navbar li a{
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -383,6 +383,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 footer .col {
@@ -461,21 +462,21 @@ footer .copyright {
 }
 
 #about-head img.imag1 {
-  width: 35%;
+  width: 50%;
   height: auto;
   float: left;
   padding: 20px;
 }
 
 #about-head img.imag2 {
-  width: 35%;
+  width: 50%;
   height: auto;
   float: right;
   padding: 20px;
 }
 
 #about-head img.imag3 {
-  width: 35%;
+  width: 50%;
   height: auto;
   float: left;
   padding: 20px;
@@ -485,7 +486,141 @@ footer .copyright {
   padding-left: 20px;
 }
 
+#contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contact-details .details {
+  width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#contact-details .details h2,
+#form-details form h2 {
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contact-details .details h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+#contact-details .details li {
+  list-style: none;
+  display: flex;
+  padding: 20px 0;
+}
+
+#contact-details .details li i {
+  font-size: 14;
+  padding-right: 22px;
+}
+
+#contact-details .details li p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#contact-details .map {
+  width: 55%;
+  height: 400px;
+}
+
+#contact-details .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#form-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid lightgray;
+}
+
+#form-details form {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+}
+
+#form-details form button {
+  background-color: #40d3dc;
+  color: white;
+  border: 1px solid #40d3dc;
+}
+
+#form-details .people div {
+  padding-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+
+#form-details .people img {
+  width: 65px;
+  height: 65px;
+  object-fit: 15px;
+  margin-right: 15px;
+}
+
+#form-details .people div p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#form-details .people div p span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
+/* ||||||||||||||||||||||||||||||| */
 /* MEDIA QUERIES FOR RESPONSIVENESS */
+
 @media (max-width: 799px) {
   .section-p1 {
     padding: 40px 40px;
@@ -515,6 +650,7 @@ footer .copyright {
     margin-bottom: 30px;
   }
 
+  
   #mobile {
     display: flex;
     align-items: center;
@@ -566,6 +702,14 @@ footer .copyright {
   #sm-banner .banner-box {
     min-width: 100%;
     height: 40vh;
+  }
+
+  #form-details {
+    padding: 40px;
+  }
+
+  #form-details form {
+    width: 50%;
   }
 }
 
@@ -631,5 +775,29 @@ footer .copyright {
 
   #about-head div {
     padding-left: 0px;
+  }
+
+  #contact-details {
+    flex-direction: column;
+  }
+
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #contact-details .map {
+    width: 100%;
+  }
+
+  #form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+
+  #form-details form {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
