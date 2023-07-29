@@ -197,7 +197,7 @@ body {
 }
 
 #feature .fe-box {
-  width: 180px;
+  width: 250px;
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
@@ -218,8 +218,8 @@ body {
 #feature .fe-box h6 {
   display: inline-block;
   padding: 9px 8px 6px 8px;
-  line-height: 1;
-  border-radius: 4px;
+  line-height: 1.6;
+  border-radius: 10px;
   color: #40d3dc;
   background-color: #fddde4;
 }
@@ -241,7 +241,7 @@ body {
 }
 
 #product1 {
-  text-align: center;
+  text-align: left;
 }
 
 #product1 .pro-container {
@@ -328,12 +328,13 @@ body {
 #banner h4 {
   width: 50%;
   color: black;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 #banner p {
+  line-height: 1.7;
   width: 50%;
   color: black;
   font-size: 16px;
@@ -359,7 +360,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url("images/img4.jpg");
+  background-image: url("images/img2.png");
 }
 
 #sm-banner h4 {
@@ -466,7 +467,7 @@ footer .copyright {
 }
 
 #page-header.about-header {
-  background-image: url("images/img4.jpg");
+  background-image: url("images/img1.png");
 }
 
 #about-head {
