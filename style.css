@@ -86,7 +86,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #40d3dc;
+  background: #0085d4;
   position: sticky;
   top: 0;
   left: 0;
@@ -108,7 +108,7 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: whitesmoke;
   transition: 0.3 ease;
 }
 
@@ -118,7 +118,7 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: white;
   transition: 0.3 ease;
   cursor: pointer;
 }
@@ -220,7 +220,7 @@ body {
   padding: 9px 8px 6px 8px;
   line-height: 1.6;
   border-radius: 10px;
-  color: #40d3dc;
+  color: #0085d4;
   background-color: #fddde4;
 }
 
@@ -273,7 +273,7 @@ body {
 
 #product1 .pro .des h5 {
   padding-top: 7px;
-  color: #40d3dc;
+  color: #0085d4;
   font-size: 26px;
 }
 
@@ -282,14 +282,14 @@ body {
   height: 24px;
   border-radius: 15px;
   background-color: white;
-  color: #40d3dc;
+  color: #0085d4;
   font-weight: bold;
   border: 1px solid;
   cursor: pointer;
 }
  */
 #product1 .pro button:hover {
-  background-color: #40d3dc;
+  background-color: #0085d4;
   color: white;
   border: 1px solid black;
 }
@@ -300,7 +300,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #40d3dc;
+  background-color: #0085d4;
   margin: auto;
   width: 100%;
   height: 25vh;
@@ -393,7 +393,7 @@ body {
 }
 
 footer {
-  background-color: #40d3dc;
+  background-color: #0085d4;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -579,9 +579,9 @@ footer .copyright {
 }
 
 #form-details form button {
-  background-color: #40d3dc;
+  background-color: #0085d4;
   color: white;
-  border: 1px solid #40d3dc;
+  border: 1px solid #0085d4;
 }
 
 #form-details .people div {
@@ -650,7 +650,7 @@ footer .copyright {
     right: -300px;
     height: 100vh;
     width: 200px;
-    background-color: #40d3dc;
+    background-color: #0085d4;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0;
     transition: 0.3s;
