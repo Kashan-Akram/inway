@@ -500,6 +500,24 @@ footer .copyright {
   padding-left: 20px;
 }
 
+.scrolling-text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 20s linear infinite;
+  background-color: #ccc;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 #contact-details {
   display: flex;
   align-items: center;
