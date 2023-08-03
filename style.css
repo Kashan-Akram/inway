@@ -82,6 +82,7 @@ body {
 }
 
 #header {
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -500,6 +501,10 @@ footer .copyright {
   padding-left: 20px;
 }
 
+#about-head h2 {
+  padding: 25px;
+}
+
 .scrolling-text {
   width: 100%;
   white-space: nowrap;
@@ -516,7 +521,6 @@ footer .copyright {
     transform: translateX(-100%);
   }
 }
-
 
 #contact-details {
   display: flex;
