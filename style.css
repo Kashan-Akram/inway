@@ -852,6 +852,19 @@ footer .copyright {
     text-align: center;
   }
 
+  #about-head {
+    flex-direction: column;
+  }
+
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding: 0;
+  }
+
   #contact-details {
     flex-direction: column;
   }
