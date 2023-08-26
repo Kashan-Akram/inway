@@ -408,6 +408,37 @@ footer .col {
   margin-bottom: 20px;
 }
 
+/* Reset default margin and padding */
+body,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the table */
+#working-hours {
+  width: 100%;
+}
+
+#working-hours th {
+  color: black;
+  font-size: 14px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+#working-hours td {
+  color: black;
+  font-size: 13px;
+  margin: 0 0 8px 0;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.current-day {
+  font-weight: bold;
+}
+
 footer .logo {
   margin-bottom: 30px;
 }
@@ -422,6 +453,7 @@ footer p {
   color: black;
   font-size: 13px;
   margin: 0 0 8px 0;
+  line-height: 1.7;
 }
 
 footer a {
@@ -470,56 +502,18 @@ footer .copyright {
 #page-header.about-header {
   background-image: url("images/img1.png");
 }
-
 #about-head {
+  display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-#about-head img.imag1 {
+#about-head img {
   width: 50%;
   height: auto;
-  float: left;
-  padding: 20px;
-}
-
-#about-head img.imag2 {
-  width: 50%;
-  height: auto;
-  float: right;
-  padding: 20px;
-}
-
-#about-head img.imag3 {
-  width: 50%;
-  height: auto;
-  float: left;
-  padding: 20px;
 }
 
 #about-head div {
-  padding-left: 20px;
-}
-
-#about-head h2 {
-  padding: 25px;
-}
-
-.scrolling-text {
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: marquee 20s linear infinite;
-  background-color: #ccc;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+  padding-left: 40px;
 }
 
 #contact-details {
@@ -856,23 +850,6 @@ footer .copyright {
 
   footer .copyright {
     text-align: center;
-  }
-
-  #start-para h2 {
-    font-size: 35px;
-  }
-
-  #about-head {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #about-head h2 {
-    font-size: 35px;
-  }
-
-  #about-head div {
-    padding-left: 0px;
   }
 
   #contact-details {

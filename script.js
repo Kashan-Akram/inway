@@ -38,3 +38,10 @@ const openFileButton_2 = document.getElementById("get_in_touch_2");
 openFileButton_2.addEventListener("click", function () {
   window.location.href = "contact_us.html";
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const days = document.querySelectorAll("#working-hours tbody tr");
+  const currentDate = new Date();
+  const currentDayIndex = currentDate.getDay();
+  days[currentDayIndex].classList.add("current-day");
+});
