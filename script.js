@@ -45,3 +45,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentDayIndex = currentDate.getDay();
   days[currentDayIndex].classList.add("current-day");
 });
+
+function validateForm() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
+    alert("Please fill in all fields.");
+    return false; // Prevent form submission
+  }
+
+  // Additional validation logic if needed
+
+  return true; // Allow form submission
+}
