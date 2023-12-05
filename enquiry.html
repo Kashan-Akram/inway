@@ -41,14 +41,13 @@
 
 
   <section id = "form-details">
-	<form action="https://formspree.io/f/xaygrwld" method="POST">
+	<form action="https://formspree.io/f/xaygrwld" method="POST" onsubmit="return validateForm2()">
 		<h2>We'd love to hear from you</h2>
-		<input type="text" placeholder="Name">
-		<input type="text" placeholder="E-Mail">
-		<input type="text" placeholder="Phone">
-		<input type="text" placeholder="City">
-		<input type="text" placeholder="Subject">
-		<textarea name="" id="" cols="30" rows="10" placeholder="Ask Us Anything!"></textarea>
+		<input type="text" id = "name" placeholder= "Name" name = "Name" required>
+		<input type="text" id = "email" placeholder= "E-Mail" name = "E-Mail" required>
+		<input type="text"  id = "phone" placeholder= "Phone" name = "Phone" required>
+		<input type="text"  id = "city" placeholder= "City" name = "City" required>
+		<input type="text"  id = "enquiry" placeholder= "Ask Us Anything!" name = "Enquiry" required>
 		<button class = "normal">Submit</button>
 	</form>
   </section>

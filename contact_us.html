@@ -82,13 +82,12 @@
 
 
   <section id = "form-details">
-	<form action="">
+	<form action="https://formspree.io/f/xaygrwld" method="POST" onsubmit="return validateForm1()">
 		<span>LEAVE A MESSAGE</span>
 		<h2>We'd love to hear from you</h2>
-		<input type="text" placeholder="Your Name">
-		<input type="text" placeholder="Your E-Mail">
-		<input type="text" placeholder="Subject">
-		<textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+		<input type="text" id = "name" placeholder="Your Name" name = "Name" required>
+		<input type="text" id = "email" placeholder="Your E-Mail" name = "E-Mail" required>
+    <input type="text" id = "message" placeholder="Your message for us" name = "The Message" required>
 		<button class = "normal">Submit</button>
 	</form>
 	<!-- <div class = "people">
